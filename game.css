@@ -1,0 +1,63 @@
+#game {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .choice-container {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+  }
+    
+    .choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    border-color: rgba(86, 165, 235, 0.5);
+    }
+    
+    .choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: #56a5eb;
+    color: white;
+    }
+    
+    .choice-text {
+        margin: 0;
+        font-size: 24px;
+        font-weight: 500;
+      }
+    
+    .correct {
+    background-color: #28a745;
+    }
+    
+    .incorrect {
+    background-color: #dc3545;
+    }
+    
+    /* HUD */
+    
+    #hud-item {
+        text-align: center;
+      }
+      
+      .hud-prefix {
+        font-size: 20px;
+        margin: 0;
+      }
+      
+      .hud-main-text {
+        margin: 0;
+        font-size: 32px;
+        font-weight: 600;
+      }
+    
+    
